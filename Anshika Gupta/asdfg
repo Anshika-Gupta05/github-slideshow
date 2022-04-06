@@ -1,0 +1,13 @@
+#include<stdio.h>
+struct student
+{ int roll_no,age;
+  char name[50];
+}obj;
+void main()
+{ printf("enter the roll_no:");
+scanf("%d",&obj.roll_no);
+printf("\nenter the age:");
+  scanf("%d",&obj.age);
+  printf("\nenter the name:");
+  scanf("%s",&obj.name);
+}
